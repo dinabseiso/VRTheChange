@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &120592
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 406190}
+  - component: {fileID: 11441292}
+  m_Layer: 0
+  m_Name: SwitchMaterialsToMobile
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &406190
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 120592}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11441292
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 120592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55f93292addca9d4a9fca935b5a6fbce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialMaterials:
+  - {fileID: 2100000, guid: f9add7219a5b60440b1d464521ead527, type: 2}
+  - {fileID: 2100000, guid: e9f0483789854e94aabf45766e424a8b, type: 2}
+  - {fileID: 2100000, guid: ee2e42c09dd86124fb6e88effc8b3c89, type: 2}
+  - {fileID: 2100000, guid: 28db40d0099852448a1816652a486146, type: 2}
+  newMaterials:
+  - {fileID: 2100000, guid: db4d94f90ca0eec40a248f40bfc5ac27, type: 2}
+  - {fileID: 2100000, guid: b9737925bdb506d4fac8dd3b180f5dc1, type: 2}
+  - {fileID: 2100000, guid: 8144677cf4a65264db290428a137d55d, type: 2}
+  - {fileID: 2100000, guid: 528883d6654c57d478b4d764d2fe67be, type: 2}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 120592}
+  m_IsPrefabParent: 1
